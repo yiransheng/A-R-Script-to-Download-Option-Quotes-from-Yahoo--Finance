@@ -1,9 +1,9 @@
-This is R script an updated version of:
+This R script is an updated version of:
 
 http://page.math.tu-berlin.de/~mkeller/R-progs/yahoo_opt.R
 
 by Martin Keller-Ressel
 
-The author is no longer actively maintaining the code. And the script does not support the current Yahoo! Finance website anymore. 
+The author is no longer actively maintaining the code. And the script does not support the current Yahoo! Finance website. 
 
 I rewrote the html parsing part to allow it work properly with the current(2012-March) Yahoo! Finance. 
