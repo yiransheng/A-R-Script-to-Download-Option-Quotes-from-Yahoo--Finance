@@ -31,10 +31,6 @@ yahoo.getOption <- function(ticker="QQQQ",maturity="2005-12",file="tempfile01",m
         
         table.starts <- grep("<table",raw)
         table.ends <- grep("</table",raw)
-###### heads td -> th     
-###### info.raw not working anymore
-###### info.open <- grep("<div.*yfi_rt_quote_summary", raw)
-###### info.close <- grep("Nasdaq Real Time Price", raw)   
         heads <- grep("<th.*yfnc_tablehead.*",raw)
         info.open <- grep("<div.*yfi_rt_quote_summary", raw)
         info.close <- grep("Nasdaq Real Time Price", raw)
